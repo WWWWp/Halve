@@ -2,11 +2,11 @@
   
 ## `Sorry guys but there will be no update until I buy a new laptop.`
 
-This theme is Jekyll port of [vangeltzo.com](http://vangeltzo.com/) (by [Vangelis Tzortzis](https://github.com/srekoble)).
+直接fork
 
-To learn how to install and use this theme check out the [installation guide](https://taylantatli.github.io/Halve/halve-theme/) for more information.
+复制&粘贴
 
-If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/TaylanTatli/Halve/issues/new).
+over
 
 ## Preview   
 ![screenshot of Halve](/images/halve-home-image.png)
