@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Halve Jekyll Theme"
-date:   2016-05-29
+date:   2018-01-02
 excerpt: "Stylish, two-column Jekyll theme for your blog."
 tag:
 - jekyll 
@@ -12,157 +12,24 @@ tag:
 - vangelis
 ---
 
-<a href="{{ site.url }}/images/halve-home-image.png"><img src="{{ site.url }}/images/halve-home-image.png" alt="Home Page of Halve"></a>  
+#### 燕池和陈粒是什么关系
 
-<center><b>Halve</b> is a stylish, two-column jekyll theme.</center><br>
-     
- This theme is Jekyll port of [vangeltzo.com](http://vangeltzo.com/) (by [Vangelis Tzortzis](https://github.com/srekoble)). I couldn't stop myself to port this theme when I saw his site. And he kindly gave me permission to share this with you.
+当初汪峰抱着一把破吉他，赵雷还在成都的街上乱晃悠，陈粒还在做她的“小卖部部长”，燕池就在弹着琴写着歌。后来汪峰上了头条，赵雷上了“我是歌手”，陈粒也红成了国民老公，燕池还在弹着琴写着歌。
 
-<iframe src="https://ghbtns.com/github-btn.html?user=TaylanTatli&repo=Halve&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>    
-      
-## Installation and Quick Usage
-* Fork the [Halve repo](https://github.com/TaylanTatli/Halve/fork)
-* Edit `_config.yml` file.
-* Edit `index.md`.
-* Edit `_data/projects.yaml`
-* Add a logo with a small one to `images` folder. (eg. `logo.png`, `logo-small.png`)
-* Remove sample posts from `_posts` folder and add yours.
-* Remove/Change sample images from `images` folder.
-* Change repo name to `YourUserName.github.io`    
-     
-That's all.
+燕池是一个冷清而低调的人，她说：写字作曲，雕木刻石，静悄悄做人。燕池这个名字可能并不出名，她的音乐属于大众里的小众，但在小众里她是大众，曾经以另类唱作人和实验音乐为创作主题。很多网友百度百科搜不到燕池的个人资料，但是她人低调，希望歌迷们不要建百科。
 
-If you want to make a **Project Page**, you have to use `gh-pages` branch. For **Personal Page**; `master` branch. More info [here](https://help.github.com/articles/about-github-pages-and-jekyll/#jekylls-build-process).
+她被歌迷们亲切称作燕郎，在于她任侠豪气的音乐风格，颇有燕赵古风气息，像是看尽是非、隐居深山的风清扬。此一点同陈粒的铮铮侠骨气极为相衬。
 
-## Preview
+##### 燕池和陈粒是什么关系？
 
-{% capture images %}
-	{{ site.url }}/images/halve-home-image.png
-	{{ site.url }}/images/post-image-halve-1.png
-	{{ site.url }}/images/post-image-halve-2.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Halve Theme" cols=3 %}
+##### 燕池和陈粒是好友关系。
 
-{% capture images %}
-	{{ site.url }}/images/post-image-halve-3.png
-	{{ site.url }}/images/post-image-halve-6.png
-	{{ site.url }}/images/post-image-halve-4.png
-{% endcapture %}
-{% include gallery images=images caption="Mobile view of Halve Theme" cols=3 %}
-      
-See a [live version of Halve](http://taylantatli.github.io/Halve) hosted on GitHub.      
+陈粒多次在微博中力推自己的好朋友燕池，《五言》《七楼》《正趣果上果》《易燃易爆炸》四首歌曲的编曲、混音、和声，燕池都有参与，而《人海》中，陈粒为燕池和声。高山流水，琴瑟和弦。
 
-## Site Setup
-A quick checklist of the files you’ll want to edit to get up and running.    
+燕山人海池池语，陈词酒曲粒粒歌。
 
-### Site Wide Configuration
-`_config.yml` is your friend. Open it up and personalize it. Most variables are self explanatory but here's an explanation of each if needed:
+燕池的歌声，委婉悠长，自在淡然，沉稳沧桑，灵气十足。她的许多歌，都是由古词写成，并且在音乐里选用了许多古代乐器进行编曲和配乐，让人欲罢不能，意犹未尽。
 
-#### title
+二十多岁，或者更大些的年纪，都适宜听燕池，她的歌有傲骨，却无戾气。
 
-The title of your site... shocker!
-
-Example `title: My Awesome Site`
-
-#### description
-
-The description to use for meta tags and homepage.
-
-#### url
-
-Used to generate absolute urls in `sitemap.xml`, `feed.xml`, and for generating canonical URLs in `<head>`. When developing locally either comment this out or use something like `http://localhost:4000` so all assets load properly. *Don't include a trailing `/`*.
-
-Examples:
-
-{% highlight yaml %}
-url: http://taylantatli.me/Halve
-url: http://localhost:4000
-url: //cooldude.github.io
-url:
-{% endhighlight %}
-
-#### logo
-Your site's logo. It will be shown on homepage. Also used for twitter meta tags.
-
-#### background
-Here we will set images for left block. Example:
-
-```
-background:
-  homepage: images/home.png
-  post-list: images/unsplash-image-10.jpg
-  default-post: images/unsplash-gallery-image-3.jpg 
-```
-
-<dl>
-  <dt>homepage</dt>
-  <dd>Is for homepage background image.</dd>
-  <dt>post-list</dt>
-  <dd>Is for posts list page background image.</dd>
-  <dt>default-post</dt>
-  <dd>Is for posts' default background image. It will be shown for every posts that don't specify any image from post's YAML front matter.</dd>
-</dl>
-
----
-
-### Projects Overlay
-
-To set what image links appear in the overlay menu edit `_data/projects.yaml`. Use the following format to set the URL, title, image and project status for as many links as you'd like. If you set `completed` to `false` like `completed: false`, it won't be clickable until you set it true like `completed: true`
-
-{% highlight yaml %}
-- title: Moon Jekyll Theme
-  url: http://taylantatli.me/Moon
-  image: https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-  completed: true
-
-- title: Ramme Jekyll Theme
-  url: http://taylantatli.me/Ramme
-  image: https://raw.githubusercontent.com/TaylanTatli/Ramme/master/assets/img/screenshot-post.png
-  completed: true
-
-- title: Daisy Pelican Theme
-  url: http://taylantatli.me/Daisy-Pelican-Theme/
-  image: https://raw.githubusercontent.com/TaylanTatli/Daisy-Pelican-Theme/master/Preview-1.png
-  completed: true
-
-- title: Block Icon Theme
-  url: https://github.com/TaylanTatli/Block-Icon-Theme
-  image: https://raw.githubusercontent.com/TaylanTatli/Block-Icon-Theme/master/Preview.png
-  completed: false
-
-- title: Start Page
-  url: http://taylantatli.me/StartPage/
-  image: https://raw.githubusercontent.com/TaylanTatli/StartPage/master/preview.png
-  completed: false
-{% endhighlight %}
-
----
-
-## Layouts and Content
-
-Halve Theme use [Jekyll Compress](https://github.com/penibelst/jekyll-compress-html) to compress html output. But it can cause errors if you use "linenos" (line numbers). I suggest don't use line numbers for codes, because it won't look good with this theme, also i didn't give a proper style for them. If you insist to use line numbers, just remove `layout: compress` string from layouts. It will disable compressing.
-
-### Images for Posts
-
-You can set left block image per post. Just add `image: some link` to your post's front matter. If you don't set this, default post image will be used from `_config.yml`.
-
-```
-image: /assets/img/some-image.png
-or
-image: http://example.com/some-image.png
-```    
- This also will be used for twitter card:
-
-![Halve Twitter Card]({{ site.url }}/images/post-image-halve-5.png)
-
----
-
-## Questions?
-
-Found a bug or aren't quite sure how something works? By all means [file a GitHub Issue](https://github.com/TaylanTatli/Halve/issues/new). And if you make something cool with this theme feel free to let me know.
-
----
-
-## License
-
-This theme is free and open source software, distributed under the MIT License. So feel free to use this Jekyll theme on your site without linking back to me or including a disclaimer.
+![image](http://img1.shenchuang.com/2017/0703/1499042079978.jpg)
