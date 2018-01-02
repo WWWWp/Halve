@@ -1,6 +1,6 @@
 # Site
 title: 头疼
-description: Stylish, Two-Column Jekyll Theme
+description: 2018-01-02 最后一次尝试
 url: https://WWWWp.github.io
 logo: Wp.png                                       # Site logo
 locale: zh
@@ -27,32 +27,8 @@ sass:
 
 # Google Analytics
 #google-analytics: UA-XXXXX-Y
-
-# Social Links
-#email:             email
-#google.plus:        username
-twitter:            username
 #facebook:           username
-github:             username
-stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-#linkedin:          username
-#xing:              username
-#instagram:          username
-#lastfm:            username
-#tumblr:            username
-#pinterest:         username
-#foursquare:        username
-#steam:              username
-#dribbble:          username
-#youtube:           username
-#soundcloud:        username
-#weibo:             username
-#flickr:            username
-#codepen:           username
-#keybase:           username
-#xmpp:              username@server.com
-#hackernews:        username
-behance:           username
+github:             https://github/WWWWp
 
 # Gems
 gems:
