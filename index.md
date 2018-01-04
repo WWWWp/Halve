@@ -8,3 +8,5 @@ fork
 Ctrl+C & Ctrl+V
 
 Delete
+
+点击logo底下小猫咪
